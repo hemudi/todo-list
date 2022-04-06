@@ -77,7 +77,7 @@ const createHTML = () => {
         </li>`,
     ""
   );
-  return `<ul class="sidebar__list">${sidebarList}</ul>`;
+  return `<ul class="sidebar__list"><div class="sidebar__scroll">${sidebarList}</div></ul>`;
 };
 
 const render = (parent) => {
@@ -87,10 +87,8 @@ const render = (parent) => {
 const toggleSidebar = () => {
   const sidebar = $("aside");
   const sidebarMenuBtn = $(".sidebar__menu-button img");
+  sidebarMenuBtn.src = sidebar.classList.contains("show") ? "./svg/icon-menu.svg" : "./svg/icon-delete.svg";
   sidebar.classList.toggle("show");
-  sidebarMenuBtn.src = sidebar.classList.contains("show")
-    ? "./client/public/svg/icon-delete.svg"
-    : "./client/public/svg/icon-menu.svg";
 };
 
 const bindModel = () => {
