@@ -1,5 +1,4 @@
 import { $ } from "../utils/utils.js";
-import { sidebarData } from "../../../../server/data/sidebar.js";
 import { profileImage } from "../constants/imagePath.js";
 import * as TodoListStore from "../store/todoListStore.js";
 

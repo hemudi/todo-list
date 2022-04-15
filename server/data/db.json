@@ -2,81 +2,63 @@
   "history": [
     {
       "action": "등록",
-      "category": [
-        "todo"
-      ],
+      "category": ["todo"],
       "title": "GitHub 공부",
       "timeStamp": "Fri Apr 15 2022 05:17:47 GMT+0900",
       "id": 1
     },
     {
       "action": "등록",
-      "category": [
-        "todo"
-      ],
+      "category": ["todo"],
       "title": "블로그에 포스팅 할 것",
       "timeStamp": "Fri Apr 15 2022 05:19:00 GMT+0900",
       "id": 2
     },
     {
       "action": "등록",
-      "category": [
-        "progress"
-      ],
+      "category": ["progress"],
       "title": "HTML/CSS 공부하기",
       "timeStamp": "Fri Apr 15 2022 05:19:27 GMT+0900",
       "id": 3
     },
     {
       "action": "등록",
-      "category": [
-        "progress"
-      ],
+      "category": ["progress"],
       "title": "Hemtori 완성하기",
       "timeStamp": "Fri Apr 15 2022 18:31:32 GMT+0900",
       "id": 4
     },
     {
       "action": "등록",
-      "category": [
-        "progress"
-      ],
+      "category": ["progress"],
       "title": "드래그 앤 드랍 뿌시기",
       "timeStamp": "Fri Apr 15 2022 18:31:48 GMT+0900",
       "id": 5
     },
     {
       "action": "등록",
-      "category": [
-        "done"
-      ],
+      "category": ["done"],
       "title": "도톨이랑 회고하기",
       "timeStamp": "Fri Apr 15 2022 18:32:01 GMT+0900",
       "id": 6
     },
     {
       "action": "등록",
-      "category": [
-        "done"
-      ],
+      "category": ["done"],
       "title": "그룹 리뷰 해치우기...",
       "timeStamp": "Fri Apr 15 2022 18:32:47 GMT+0900",
       "id": 7
     },
     {
       "action": "삭제",
-      "category": [
-        "done"
-      ],
+      "category": ["done"],
       "title": "그룹 리뷰 해치우기...",
       "timeStamp": "Fri Apr 15 2022 18:32:52 GMT+0900",
       "id": 8
     },
     {
       "action": "변경",
-      "category": [
-        "done"
-      ],
+      "category": ["done"],
       "title": "도톨이랑 회고하기",
       "timeStamp": "Fri Apr 15 2022 18:33:06 GMT+0900",
       "id": 9

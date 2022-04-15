@@ -5,9 +5,11 @@ let todoListData;
 let historyData;
 
 const fetchTodoListData = async () => {
-  todoListData = await fetchData(`${serverURL}/todoList`);
+  todoListData = await fetchData(
+    "https://raw.githubusercontent.com/hemtori/todo-list/develop4/server/data/db.json"
+  );
 
-  for (const listData of todoListData) {
+  for (const listData of todoListData.todoList) {
     let value = listData.task;
 
     Object.defineProperty(listData, "task", {
@@ -35,8 +37,10 @@ const updateTodoListData = ([id, updatedList]) => {
 };
 
 const getHistoryData = async () => {
-  historyData = { list: await fetchData(`${serverURL}/history`) };
-  let historyList = historyData.list;
+  historyData = {
+    list: await fetchData("https://raw.githubusercontent.com/hemtori/todo-list/develop4/server/data/db.json"),
+  };
+  let historyList = historyData.list.history;
 
   Object.defineProperty(historyData, "list", {
     get: () => {
